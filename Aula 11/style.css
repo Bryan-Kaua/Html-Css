@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(66, 64, 64);
+}
+h1{
+    text-align: center;
+    color: rgb(233, 228, 228);
+}
+.center{
+    text-align: center;
+}
+.grande{
+    font-size: 25px;
+}
+.grande-grande{
+    font-size: 50px;
+}

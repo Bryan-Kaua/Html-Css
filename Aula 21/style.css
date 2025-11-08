@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(40, 70, 40);
+    height: 750px;
+}
+h1, h2{
+    color: rgb(209, 227, 243);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#principal{
+    background-color: rgb(20, 20, 20);
+    height: 39px;
+    width: 200px;
+    padding: 14px 12px;
+    margin: -8px auto;
+    border-radius: 20px;
+}
+#secundario{
+    border: 4px solid black;
+    height: 34px;
+    width: 178px;
+    margin: 5px auto;
+    padding: 10px 8px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a::after{
+    content: ' [Link] ';
+}
+p{
+    color: rgb(209, 227, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#rodape{
+    background-color: gray;
+    margin: 8px -8px;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    padding: 10px;
+}
+#autor{
+    text-align: end;
+    color: rgb(171, 205, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+

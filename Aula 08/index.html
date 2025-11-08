@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+        h1{
+            text-align: center;
+            color: antiquewhite;
+            margin-top: 20px;
+        }
+        h2{
+            text-align: center;
+            color: antiquewhite;
+        }
+        p{
+            color: antiquewhite;
+            font-size:  25px;
+        }
+    </style>
+    <title>Aula 08</title>
+</head>
+<body>
+    <h1>Aula 08</h1>
+    <hr>
+    <h2>Imagens Dinâmica</h2>
+    <br>
+    <picture> <!--picture - usado para colocar imagens de tamanhos diferentes-->
+        <source media="(max-width:750px)" srcset="img-pequena.jpg" type="image/jpg"> <!--Recomendado usar o max-width, deve-se ser colocado em ordem da menor imagem a maior-->
+
+        <source media="(max-width:1050px)" srcset="img-media.jpg" type="image/jpg">
+
+        <img src="../Imagens/Img-grande.jpg" alt="Imagem flexivel media">
+    </picture>
+    <br>
+    <p style="margin: 20px;">
+        Página
+        <a href="../Meus Estudos Html/index.html">
+            Inicial
+        </a>
+    </p>
+</body>
+</html>

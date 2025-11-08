@@ -1,0 +1,51 @@
+body{
+    background-color: #17171d;
+    width: auto;
+    height: auto;
+}
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+}
+p{
+    font: 300 20px Arial, sans-serif;
+    color: white;
+}
+a{
+    color: whitesmoke;
+}
+#principal{
+    text-align: center;
+    background-color: rgba(53, 53, 53, 0.767);
+    height: 50px;
+    width: auto;
+    padding-top: 10px;
+    margin: -8px;
+}
+.center{
+    text-align: center;
+}
+.end{
+    text-align: end;
+}
+.justify{
+    text-align: justify;
+}
+a:visited{
+    color: wheat;
+    text-decoration: none;
+}
+hr{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+div{
+    background-color: #202047;
+    border-radius: 46px;
+    height: 300px;
+    width: 554px;
+}
+.center-box{
+    margin: 28px auto 0px auto;
+    padding: 1px 0px 1px 0px;
+}

@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, #0000ff, #000088, #000066, #000044);
+}
+main{
+    background-color: #2D2D38;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #17171da6 5px 5px 5px;
+    color: rgb(200, 200, 200);
+}
+h1, h2{
+    color: white;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: rgb(200, 200, 200);
+    font: normal 18px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 10px;
+}
+h1#principal{
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+.grande-center{
+    text-align: center;
+    font-size: 25px;
+}

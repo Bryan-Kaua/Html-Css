@@ -1,0 +1,46 @@
+body{
+    background-color: #435A3C;
+}
+main{
+    background-color: #2D2D38;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #17171da6 5px 5px 5px;
+    color: rgb(200, 200, 200);
+}
+h1, h2{
+    color: #dddddd;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: rgb(200, 200, 200);
+    font: normal 18px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 10px;
+}
+.col{
+    background-color: #2d2d38;
+    border-radius: 20px;
+    height: 60px;
+    width: auto;
+    margin-top: -8px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#principal{
+    text-align: center;
+}
+div:hover{
+    background-color: #38312D;
+} 
+/*Pseudo classe se utiliza com (nome do comando=:) utilizado para demarcar um elemento ou classe */ 
+.col-2{
+    border: 1px solid black;
+    height: 80px;
+    width: 140px;
+    display: inline-block;
+} /*Display inline-block usado para colocar um do lado do outro*/ 

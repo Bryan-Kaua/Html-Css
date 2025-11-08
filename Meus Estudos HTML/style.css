@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right, blue, #000088, #000054);
+}
+h1{
+    padding: 20px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #2D2D38;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #17171da6 5px 5px 5px;
+    color: rgb(200, 200, 200);
+}

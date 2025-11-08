@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right, blue , #000088);
+}
+main{
+    background-color: #2d2d38;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: #2828317a 5px 5px 5px;
+}
+h1, h2{
+    color: #ffffffff;
+    text-align: center;
+}
+p{
+    color: rgb(200, 200, 200);
+    text-align: center;
+    text-indent: 30px;
+    font: 300 18px arial, serif;
+} /* Text-Indent = paragrafo *\

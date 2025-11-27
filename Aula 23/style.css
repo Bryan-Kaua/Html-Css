@@ -1,0 +1,17 @@
+body{
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+div.quadrado{
+    height: 200px;
+    width: 220px;
+    background-color: skyblue;
+    border: 1px  solid black;
+    display: inline-block;
+}
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red );
+}
+div#q3{
+    background-image: url('imagens/pattern001.png');
+}

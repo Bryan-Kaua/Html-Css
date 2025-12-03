@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 2</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: skyblue;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+            font-size: 7vw;
+            font-family: cursive;
+            padding: 8px;
+        }
+
+        tfoot , thead{
+            background-color: grey;
+            color: white;
+        }
+
+        tr, td , th{
+            border: 1px black solid;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Tabelas 2</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>
+                    Estado
+                </th>
+                <th>
+                    População
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td class="num">460.000</td>
+            </tr>
+                <td>
+                    Rio De Janeiro
+                </td>
+                <td class="num">
+                    300.000
+                </td>
+            <tr>
+                <td>
+                    Rio Grande Do Sul
+                </td>
+                <td class="num">
+                    340.000
+                </td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <th>
+                    Total De Habitantes
+                </th>
+                <td class="num">
+                    <strong>
+                        1.000.000
+                    </strong>
+                </td>
+            </tr>
+
+
+        </tfoot>
+
+
+
+
+
+
+
+    </table>
+
+</body>
+</html>
